@@ -1,0 +1,7 @@
+Week 6 ทำ mini project ที่อาจารย์สั่ง
+
+รายละเอียด
+- ทำ crud เบื้องต้น
+
+reflect 
+- ได้ทบทวนเลือก array object ในการทำ crud 
