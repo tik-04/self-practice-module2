@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1>ฟอร์มสำหรับการเลือกไสตล์ของหน้าเว็บ</h1>
+
+        <form id="themeSettingForm">
+
+            <label for="backgroundColor">1. Background Color:</label>
+            <input type="color" id="backgroundColor" name="backgroundColor" value="#ffffff">
+
+            <label for="fontColor">2. Font color:</label>
+            <input type="color" id="fontColor" name="fontColor" value="#000000"> </div>
+
+            <label for="fontSize">3. Font Size :</label>
+            <select id="fontSize" name="fontSize">
+                <option value="16" selected>medium (Default)</option>
+                <option value="12">small</option>
+                <option value="24">large</option>
+            </select>
+
+            <button type="button" id="saveButton">Save</button>
+            <button type="button" id="resetButton">Reset</button>
+
+            
+
+        </form>
+
+    </div>
+    
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
